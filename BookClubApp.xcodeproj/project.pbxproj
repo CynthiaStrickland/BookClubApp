@@ -8,12 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		81155D3F1E25E02600BFFFC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81155D3E1E25E02600BFFFC9 /* AppDelegate.swift */; };
-		81155D411E25E02600BFFFC9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81155D401E25E02600BFFFC9 /* ViewController.swift */; };
-		81155D441E25E02600BFFFC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81155D421E25E02600BFFFC9 /* Main.storyboard */; };
 		81155D461E25E02600BFFFC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81155D451E25E02600BFFFC9 /* Assets.xcassets */; };
 		81155D491E25E02600BFFFC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81155D471E25E02600BFFFC9 /* LaunchScreen.storyboard */; };
 		81155D541E25E02600BFFFC9 /* BookClubAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81155D531E25E02600BFFFC9 /* BookClubAppTests.swift */; };
 		81155D5F1E25E02600BFFFC9 /* BookClubAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81155D5E1E25E02600BFFFC9 /* BookClubAppUITests.swift */; };
+		81155D6D1E25E04100BFFFC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81155D6C1E25E04100BFFFC9 /* Main.storyboard */; };
+		81155D6F1E25E0FE00BFFFC9 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81155D6E1E25E0FE00BFFFC9 /* LoginViewController.swift */; };
+		81155D711E25E10E00BFFFC9 /* PasswordResetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81155D701E25E10E00BFFFC9 /* PasswordResetViewController.swift */; };
+		81155D741E25E13500BFFFC9 /* BookClubMembersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81155D731E25E13500BFFFC9 /* BookClubMembersViewController.swift */; };
+		81155D761E25E13A00BFFFC9 /* MyHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81155D751E25E13A00BFFFC9 /* MyHomeViewController.swift */; };
+		81155D781E25E14100BFFFC9 /* AddBookReadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81155D771E25E14100BFFFC9 /* AddBookReadViewController.swift */; };
+		81155D7A1E25E14700BFFFC9 /* BookClubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81155D791E25E14700BFFFC9 /* BookClubViewController.swift */; };
+		81155D7C1E25E15100BFFFC9 /* BookClubViewController+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81155D7B1E25E15100BFFFC9 /* BookClubViewController+TableView.swift */; };
+		81155D7E1E25E15700BFFFC9 /* BookClubTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81155D7D1E25E15700BFFFC9 /* BookClubTableViewCell.swift */; };
+		81155D801E25E17900BFFFC9 /* UserBookNotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81155D7F1E25E17900BFFFC9 /* UserBookNotes.swift */; };
+		81155D821E25E18000BFFFC9 /* CreateBookClub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81155D811E25E18000BFFFC9 /* CreateBookClub.swift */; };
+		81155D841E25E18500BFFFC9 /* BuyBookViewcontrollerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81155D831E25E18500BFFFC9 /* BuyBookViewcontrollerViewController.swift */; };
+		81155D861E25E18C00BFFFC9 /* SearchClubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81155D851E25E18C00BFFFC9 /* SearchClubViewController.swift */; };
+		81155D881E25E19300BFFFC9 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81155D871E25E19300BFFFC9 /* AboutViewController.swift */; };
+		81155D8A1E25E19E00BFFFC9 /* Books.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81155D891E25E19E00BFFFC9 /* Books.swift */; };
+		81155D8C1E25E1A400BFFFC9 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81155D8B1E25E1A400BFFFC9 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,8 +50,6 @@
 /* Begin PBXFileReference section */
 		81155D3B1E25E02600BFFFC9 /* BookClubApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookClubApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81155D3E1E25E02600BFFFC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		81155D401E25E02600BFFFC9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		81155D431E25E02600BFFFC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		81155D451E25E02600BFFFC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		81155D481E25E02600BFFFC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		81155D4A1E25E02600BFFFC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +59,22 @@
 		81155D5A1E25E02600BFFFC9 /* BookClubAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookClubAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		81155D5E1E25E02600BFFFC9 /* BookClubAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookClubAppUITests.swift; sourceTree = "<group>"; };
 		81155D601E25E02600BFFFC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81155D6C1E25E04100BFFFC9 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		81155D6E1E25E0FE00BFFFC9 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		81155D701E25E10E00BFFFC9 /* PasswordResetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordResetViewController.swift; sourceTree = "<group>"; };
+		81155D731E25E13500BFFFC9 /* BookClubMembersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookClubMembersViewController.swift; sourceTree = "<group>"; };
+		81155D751E25E13A00BFFFC9 /* MyHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyHomeViewController.swift; sourceTree = "<group>"; };
+		81155D771E25E14100BFFFC9 /* AddBookReadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddBookReadViewController.swift; sourceTree = "<group>"; };
+		81155D791E25E14700BFFFC9 /* BookClubViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookClubViewController.swift; sourceTree = "<group>"; };
+		81155D7B1E25E15100BFFFC9 /* BookClubViewController+TableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BookClubViewController+TableView.swift"; sourceTree = "<group>"; };
+		81155D7D1E25E15700BFFFC9 /* BookClubTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookClubTableViewCell.swift; sourceTree = "<group>"; };
+		81155D7F1E25E17900BFFFC9 /* UserBookNotes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserBookNotes.swift; sourceTree = "<group>"; };
+		81155D811E25E18000BFFFC9 /* CreateBookClub.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateBookClub.swift; sourceTree = "<group>"; };
+		81155D831E25E18500BFFFC9 /* BuyBookViewcontrollerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuyBookViewcontrollerViewController.swift; sourceTree = "<group>"; };
+		81155D851E25E18C00BFFFC9 /* SearchClubViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchClubViewController.swift; sourceTree = "<group>"; };
+		81155D871E25E19300BFFFC9 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		81155D891E25E19E00BFFFC9 /* Books.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Books.swift; sourceTree = "<group>"; };
+		81155D8B1E25E1A400BFFFC9 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				81155D3D1E25E02600BFFFC9 /* BookClubApp */,
+				81155D721E25E11900BFFFC9 /* CONTROLLERS */,
 				81155D521E25E02600BFFFC9 /* BookClubAppTests */,
 				81155D5D1E25E02600BFFFC9 /* BookClubAppUITests */,
 				81155D3C1E25E02600BFFFC9 /* Products */,
@@ -98,9 +127,10 @@
 			isa = PBXGroup;
 			children = (
 				81155D3E1E25E02600BFFFC9 /* AppDelegate.swift */,
-				81155D401E25E02600BFFFC9 /* ViewController.swift */,
-				81155D421E25E02600BFFFC9 /* Main.storyboard */,
+				81155D6E1E25E0FE00BFFFC9 /* LoginViewController.swift */,
+				81155D701E25E10E00BFFFC9 /* PasswordResetViewController.swift */,
 				81155D451E25E02600BFFFC9 /* Assets.xcassets */,
+				81155D6C1E25E04100BFFFC9 /* Main.storyboard */,
 				81155D471E25E02600BFFFC9 /* LaunchScreen.storyboard */,
 				81155D4A1E25E02600BFFFC9 /* Info.plist */,
 			);
@@ -123,6 +153,26 @@
 				81155D601E25E02600BFFFC9 /* Info.plist */,
 			);
 			path = BookClubAppUITests;
+			sourceTree = "<group>";
+		};
+		81155D721E25E11900BFFFC9 /* CONTROLLERS */ = {
+			isa = PBXGroup;
+			children = (
+				81155D731E25E13500BFFFC9 /* BookClubMembersViewController.swift */,
+				81155D751E25E13A00BFFFC9 /* MyHomeViewController.swift */,
+				81155D771E25E14100BFFFC9 /* AddBookReadViewController.swift */,
+				81155D791E25E14700BFFFC9 /* BookClubViewController.swift */,
+				81155D7B1E25E15100BFFFC9 /* BookClubViewController+TableView.swift */,
+				81155D7D1E25E15700BFFFC9 /* BookClubTableViewCell.swift */,
+				81155D7F1E25E17900BFFFC9 /* UserBookNotes.swift */,
+				81155D811E25E18000BFFFC9 /* CreateBookClub.swift */,
+				81155D831E25E18500BFFFC9 /* BuyBookViewcontrollerViewController.swift */,
+				81155D851E25E18C00BFFFC9 /* SearchClubViewController.swift */,
+				81155D871E25E19300BFFFC9 /* AboutViewController.swift */,
+				81155D891E25E19E00BFFFC9 /* Books.swift */,
+				81155D8B1E25E1A400BFFFC9 /* User.swift */,
+			);
+			name = CONTROLLERS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +243,7 @@
 				TargetAttributes = {
 					81155D3A1E25E02600BFFFC9 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = LK662Y5U4K;
 						ProvisioningStyle = Automatic;
 					};
 					81155D4E1E25E02600BFFFC9 = {
@@ -232,9 +283,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81155D6D1E25E04100BFFFC9 /* Main.storyboard in Resources */,
 				81155D491E25E02600BFFFC9 /* LaunchScreen.storyboard in Resources */,
 				81155D461E25E02600BFFFC9 /* Assets.xcassets in Resources */,
-				81155D441E25E02600BFFFC9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +310,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81155D411E25E02600BFFFC9 /* ViewController.swift in Sources */,
+				81155D6F1E25E0FE00BFFFC9 /* LoginViewController.swift in Sources */,
+				81155D841E25E18500BFFFC9 /* BuyBookViewcontrollerViewController.swift in Sources */,
+				81155D7A1E25E14700BFFFC9 /* BookClubViewController.swift in Sources */,
+				81155D741E25E13500BFFFC9 /* BookClubMembersViewController.swift in Sources */,
+				81155D8C1E25E1A400BFFFC9 /* User.swift in Sources */,
+				81155D861E25E18C00BFFFC9 /* SearchClubViewController.swift in Sources */,
+				81155D711E25E10E00BFFFC9 /* PasswordResetViewController.swift in Sources */,
+				81155D781E25E14100BFFFC9 /* AddBookReadViewController.swift in Sources */,
+				81155D801E25E17900BFFFC9 /* UserBookNotes.swift in Sources */,
+				81155D7E1E25E15700BFFFC9 /* BookClubTableViewCell.swift in Sources */,
+				81155D8A1E25E19E00BFFFC9 /* Books.swift in Sources */,
+				81155D761E25E13A00BFFFC9 /* MyHomeViewController.swift in Sources */,
+				81155D881E25E19300BFFFC9 /* AboutViewController.swift in Sources */,
 				81155D3F1E25E02600BFFFC9 /* AppDelegate.swift in Sources */,
+				81155D821E25E18000BFFFC9 /* CreateBookClub.swift in Sources */,
+				81155D7C1E25E15100BFFFC9 /* BookClubViewController+TableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,14 +361,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		81155D421E25E02600BFFFC9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				81155D431E25E02600BFFFC9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		81155D471E25E02600BFFFC9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -412,9 +469,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LK662Y5U4K;
 				INFOPLIST_FILE = BookClubApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.cynthiastrickland.BookClubApp.BookClubApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cynthiastrickland.BookClubApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -424,9 +482,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LK662Y5U4K;
 				INFOPLIST_FILE = BookClubApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.cynthiastrickland.BookClubApp.BookClubApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cynthiastrickland.BookClubApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
