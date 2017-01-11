@@ -7,6 +7,11 @@
 //
 
 import UIKit
+import FirebaseCore
+import FirebaseDatabase
+import FirebaseAuth
+import FirebaseStorage
+
 
 class CreateBookClub: UIViewController, UITextViewDelegate, UITextFieldDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate  {
     var bookClubInfo = [Books]()
@@ -69,7 +74,7 @@ class CreateBookClub: UIViewController, UITextViewDelegate, UITextFieldDelegate,
             storageRef.put(uploadData, metadata: nil, completion: { (metadata, error) in
                 
                 if error != nil {
-                    print(error)
+                    print(error as Any)
                     return
                 }
                 
@@ -89,7 +94,7 @@ class CreateBookClub: UIViewController, UITextViewDelegate, UITextFieldDelegate,
         usersReference.updateChildValues(values, withCompletionBlock: { (err, ref) in
             
             if err != nil {
-                print(err)
+                print(err as Any)
                 return
             }
             

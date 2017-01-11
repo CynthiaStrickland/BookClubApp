@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import Firebase
+
 
 class BookClubMembersViewController: UIViewController, UITableViewDataSource {
     @IBOutlet weak var tableView: UITableView!
@@ -43,7 +45,7 @@ class BookClubMembersViewController: UIViewController, UITableViewDataSource {
 
                 })
                 print(snapshot)
-                print(user.email, user.membername)
+                print(user.email as Any, user.membername as Any)
             }
         }, withCancel: nil)
     }

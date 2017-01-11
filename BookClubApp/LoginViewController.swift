@@ -8,6 +8,12 @@
 
 
 import UIKit
+import Firebase
+import FirebaseCore
+import FirebaseDatabase
+import FirebaseStorage
+import FirebaseAuth
+
 
 
 class LoginViewController: UIViewController, UITextFieldDelegate {
@@ -130,7 +136,7 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
 
         FIRAuth.auth()?.createUser(withEmail: userEmail, password: userPassword, completion: { (user: FIRUser?, error) in
             if error != nil {
-                print(error?.localizedDescription)
+                print(error?.localizedDescription as Any)
                 return
             }
             

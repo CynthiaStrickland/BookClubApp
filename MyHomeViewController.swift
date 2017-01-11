@@ -7,6 +7,11 @@
 //
 import CoreFoundation
 import UIKit
+import FirebaseCore
+import FirebaseDatabase
+import FirebaseStorage
+import FirebaseAuth
+
 
 
 class MyHomeViewController: UIViewController, UITextFieldDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate, UITableViewDataSource, UITableViewDelegate {
@@ -131,7 +136,7 @@ class MyHomeViewController: UIViewController, UITextFieldDelegate, UIImagePicker
                 storageRef.put(uploadData, metadata: nil, completion: { (metadata, error) in
                     
                     if error != nil {
-                        print(error)
+                        print(error as Any)
                         return
                     }
                     
@@ -152,7 +157,7 @@ class MyHomeViewController: UIViewController, UITextFieldDelegate, UIImagePicker
         usersReference.updateChildValues(values, withCompletionBlock: { (err, ref) in
             
             if err != nil {
-                print(err)
+                print(err as Any)
                 return
             }
             

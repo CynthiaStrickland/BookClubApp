@@ -1,0 +1,24 @@
+
+pod 'Firebase', '>= 2.5.1'
+
+
+pod 'FirebaseAuth'
+pod 'FirebaseDatabase'
+pod 'Firebase/Core'
+pod 'Firebase/Storage'
+
+
+platform :ios, '9.0'
+
+target 'BookClub' do
+  use_frameworks!
+
+  target 'BookClubTests' do
+    inherit! :search_paths
+  end
+
+  target 'BookClubUITests' do
+    inherit! :search_paths
+  end
+
+end
